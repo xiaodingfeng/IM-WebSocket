@@ -1,0 +1,17 @@
+server:
+  port: 9225
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:file:/home/workpace/websocket/db/websocket
+    username: root
+    password: 123456
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  sql:
+    init:
+      schema-locations: classpath:sql/user.sql
+      mode: embedded
