@@ -90,7 +90,7 @@ public class WebSocketServer {
             for (String msg : contentMap.get(userId)) {
                 sendMessage(msg);
             }
-
+            contentMap.remove(userId);
         }
 
     }
