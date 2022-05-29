@@ -1,8 +1,8 @@
-package com.xiaobai.websocket.user.controller;
+package com.xiaobai.websocket.sys.user.controller;
 
 import com.xiaobai.websocket.sdk.convert.ApiResponse;
-import com.xiaobai.websocket.user.entity.User;
-import com.xiaobai.websocket.user.service.UserService;
+import com.xiaobai.websocket.sys.user.entity.User;
+import com.xiaobai.websocket.sys.user.service.UserService;
 import com.xiaobai.websocket.util.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

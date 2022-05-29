@@ -13,5 +13,9 @@ spring:
       path: /h2-console
   sql:
     init:
-      schema-locations: classpath:sql/user.sql
+      schema-locations: classpath:sql/create.sql
       mode: embedded
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

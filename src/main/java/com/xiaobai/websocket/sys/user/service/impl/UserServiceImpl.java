@@ -1,11 +1,11 @@
-package com.xiaobai.websocket.user.service.impl;
+package com.xiaobai.websocket.sys.user.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.xiaobai.websocket.sdk.exception.BusinessRuntimeException;
-import com.xiaobai.websocket.user.entity.User;
-import com.xiaobai.websocket.user.mapper.UserMapper;
-import com.xiaobai.websocket.user.service.UserService;
+import com.xiaobai.websocket.sys.user.entity.User;
+import com.xiaobai.websocket.sys.user.mapper.UserMapper;
+import com.xiaobai.websocket.sys.user.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Base64Utils;
 import org.springframework.util.DigestUtils;

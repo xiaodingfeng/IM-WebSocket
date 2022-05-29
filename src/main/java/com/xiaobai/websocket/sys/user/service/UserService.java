@@ -1,6 +1,6 @@
-package com.xiaobai.websocket.user.service;
+package com.xiaobai.websocket.sys.user.service;
 
-import com.xiaobai.websocket.user.entity.User;
+import com.xiaobai.websocket.sys.user.entity.User;
 import org.springframework.stereotype.Component;
 
 @Component

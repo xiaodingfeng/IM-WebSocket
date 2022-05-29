@@ -1,4 +1,4 @@
-package com.xiaobai.websocket.user.entity;
+package com.xiaobai.websocket.sys.user.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;

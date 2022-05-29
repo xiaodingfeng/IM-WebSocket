@@ -1,7 +1,7 @@
 package com.xiaobai.websocket.util;
 
 import com.xiaobai.websocket.sdk.exception.BusinessRuntimeException;
-import com.xiaobai.websocket.user.entity.User;
+import com.xiaobai.websocket.sys.user.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
